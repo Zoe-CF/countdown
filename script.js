@@ -21,3 +21,9 @@ let countDown = new Date('Mar 22, 2021 00:00:00').getTime(),
       //}
 
     }, second)
+
+$('#el').daterangeBar({
+  'barClass': 'progress-bar-striped active',
+  'bootstrap': true,
+  'endDate': '22-03-2021'
+});

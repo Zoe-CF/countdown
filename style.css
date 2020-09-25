@@ -315,7 +315,7 @@ BULLES BULLES BULLES BULLES BULLES BULLES BULLES BULLES BULLES BULLES BULLES BUL
 }
 
 /* ---------------------------------------------------------------------------------
-PROGRESS BAR PROGRESS BAR PROGRESS BAR PROGRESS BAR PROGRESS BAR PROGRESS BAR PROGRESS BAR 
+PROGRESS BAR PROGRESS BAR PROGRESS BAR PROGRESS BAR PROGRESS BAR PROGRESS BAR 
 ---------------------------------------------------------------------------------*/
 
 
@@ -349,6 +349,10 @@ PROGRESS BAR PROGRESS BAR PROGRESS BAR PROGRESS BAR PROGRESS BAR PROGRESS BAR PR
 }
 
 
+
+/* ---------------------------------------------------------------------------------
+RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  
+---------------------------------------------------------------------------------*/
 
 @media only screen and (max-width: 640px) {
     
