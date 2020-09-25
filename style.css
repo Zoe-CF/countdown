@@ -64,12 +64,11 @@ body {
 
 .footer {
 	width: 100%;
-	bottom: 0;
     background-color:#BCDEE8;
     height:150px;
     display:flex;
     flex-wrap: wrap;
-    flex-basis : 100%;   
+ /* flex-basis : 100%; */ 
     align-items: center;
 }
 
@@ -83,9 +82,18 @@ body {
 }
 
 .github { 
+    display:flex;
     float : right;
     margin-right:40px;
+    align-items: center;
+    
 } 
+
+.github span {
+    font-family: 'BenchNine', sans-serif;
+    font-size:20px;
+    margin:15px;
+}
 
 
 #center {
@@ -99,8 +107,13 @@ body {
 }
 
 .baleine {
-    
+    height: 100%;
 }
+
+.baleine img { 
+    height: 100%; 
+    width: auto; 
+} 
 
 .block
 {
@@ -147,6 +160,7 @@ li span {
     width: 500px;
     z-index :2;
 }
+
 
 /* ---------------------------------------------------------------------------------
 BULLES BULLES BULLES BULLES BULLES BULLES BULLES BULLES BULLES BULLES BULLES BULLES 
@@ -300,6 +314,39 @@ BULLES BULLES BULLES BULLES BULLES BULLES BULLES BULLES BULLES BULLES BULLES BUL
     }
 }
 
+/* ---------------------------------------------------------------------------------
+PROGRESS BAR PROGRESS BAR PROGRESS BAR PROGRESS BAR PROGRESS BAR PROGRESS BAR PROGRESS BAR 
+---------------------------------------------------------------------------------*/
+
+
+#el { width: 100%; }
+
+#el .progress {
+  border: 1px solid #7BA7B5;
+  height: 20px;
+  padding: 1px;
+  border-radius: 5px;
+  background: #9CD3E6;
+  -webkit-box-shadow: inset 1px 1px 9px 0px rgba(50, 50, 50, 0.45);
+  -moz-box-shadow: inset 1px 1px 9px 0px rgba(50, 50, 50, 0.45);
+  box-shadow: inset 1px 1px 9px 0px rgba(50, 50, 50, 0.45);
+}
+
+#el .progress .progress-bar {
+  box-sizing: content-box;
+  height: 20px;
+  background: #7BA7B5;
+  width: 35%;
+  border-radius: 5px;
+  color: #fff;
+  text-align: right;
+  padding-right: 7px;
+  overflow-x: visible;
+  font-size: 12px;
+  -webkit-box-shadow: 1px 1px 9px 1px rgba(50, 50, 50, 0.45);
+  -moz-box-shadow: 1px 1px 9px 1px rgba(50, 50, 50, 0.45);
+  box-shadow: 1px 1px 9px 1px rgba(50, 50, 50, 0.45);
+}
 
 
 
