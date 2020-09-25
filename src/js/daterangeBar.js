@@ -107,14 +107,14 @@
 
     $.fn.daterangeBar = function(options) {
         var settings = $.extend({
-            'msg': 'of the year',
-            'startDate': '01-01-2016',
-            'endDate': '31-12-2016',
+            'msg': '',
+            'startDate': '12-07-2020',
+            'endDate': '22-03-2021',
             'barClass': undefined,
             'bootstrap': false,
             'privateColors': true,
-            'barColor': '#7BA7B5',
-            'bgColor': '#9CD3E6',
+            'barColor': '#0F80AA',
+            'bgColor': '#FFF',
             'minValue': 0,
             'maxValue': 100
         }, options);
