@@ -14,12 +14,6 @@ html {
    height: 100%
 }
 
-.page {
-    height:auto;
-    display:flex;
-    flex-direction:column;
-}
-
 
 body {
     margin:0;
@@ -112,7 +106,6 @@ body {
 .baleine img { 
     height: 100%; 
     width: auto; 
-
 } 
 
 .block
@@ -413,7 +406,7 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
                 width: 400px;
                 z-index :2;
                 margin-bottom:5%;
-               
+
             }
 
             .block{
