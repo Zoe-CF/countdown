@@ -403,7 +403,7 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
 
             .baleine img {
                 position:relative;
-                width: 400px;
+                width: 500px;
                 z-index :2;
                 margin-bottom:5%;
             }
@@ -417,7 +417,7 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
 
             li {
                 display: inline-block;
-                font-size: 20px;
+                font-size: 24px;
                 align-items: center;
                 list-style-type: none;
                 text-transform: uppercase;
@@ -427,7 +427,7 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
               
               li span {
                 display: block;
-                font-size: 28px;
+                font-size: 32px;
                 font-family: 'arial', sans-serif;
               }
               
