@@ -401,9 +401,14 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
         
             }
 
+            .baleine{
+                align-self: center;
+                margin-bottom: 5% ;
+            }
+
             .baleine img {
                 position:relative;
-                width: 500px;
+                width: 400px;
                 z-index :2;
                 margin-bottom:5%;
             }
