@@ -97,12 +97,11 @@ body {
 
 
 #center {
-    display:flex;
+    display:inline-flex;
     align-items: center;
     justify-content:space-between;
-    margin-left:10%;
-    margin-right:10%;
-    margin-top:10%;
+    padding-left : 10%;
+    padding-right : 10%;
      flex: 1
 }
 
@@ -113,19 +112,21 @@ body {
 .baleine img { 
     height: 100%; 
     width: auto; 
+
 } 
 
 .block
 {
     background-color: white;
     height: 120px;
-    width: 420px;
+    width: auto; 
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     z-index :3;
     color: #333;
     margin: 0 auto;
     text-align: center;
+    padding:10px;
 
 }
 
@@ -139,13 +140,11 @@ ul{
 li {
   display: inline-block;
   font-size: 32px;
+  align-items: center;
   list-style-type: none;
   text-transform: uppercase;
   font-family: 'BenchNine', sans-serif;
     padding:5px;
-    line-height: 40px;
-    margin-top:20px;
-
 }
 
 li span {
@@ -342,7 +341,8 @@ PROGRESS BAR PROGRESS BAR PROGRESS BAR PROGRESS BAR PROGRESS BAR PROGRESS BAR
 RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  
 ---------------------------------------------------------------------------------*/
 
-@media only screen and (max-width: 640px) {
+
+@media screen and (max-width: 640px) {
     
     .header {
         height:60px;
@@ -364,7 +364,7 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
     
     #center {
     display:flex;
-    flex-direction:column-reverse;
+    flex-direction:column;
     justify-content:space-between;
 
         }
@@ -372,10 +372,51 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
         
     .baleine img {
     position:relative;
-    width: 400px;
+    width: 300px;
     z-index :2;
+
 }
-    
+
 
 
                                         }
+
+ @media  screen and (max-width: 960px) {
+    #center {
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        align-items: center;
+            }
+
+            .baleine img {
+                position:relative;
+                width: 300px;
+                z-index :2;
+                margin-top:5%;
+                margin-bottom:5%;
+            }
+
+            .block{
+                margin-top : 5%;
+                height:auto;
+            }
+
+            li {
+                display: inline-block;
+                font-size: 22px;
+                align-items: center;
+                list-style-type: none;
+                text-transform: uppercase;
+                font-family: 'BenchNine', sans-serif;
+                  padding:5px;
+              }
+              
+              li span {
+                display: block;
+                font-size: 30px;
+                font-family: 'arial', sans-serif;
+              }
+              
+
+        }
