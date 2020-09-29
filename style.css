@@ -344,6 +344,11 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
 
 @media screen and (max-width: 725px) {
 
+    .block{
+        margin-top : 15%;
+        margin-bottom:5%;
+            height:auto;
+        }
 
 
     .header {
@@ -394,7 +399,7 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
 
             .baleine img {
                 position:relative;
-                width: 80vw;
+                min-width: 60vw;
                 z-index :2;
                 margin-bottom:5%;
             }
