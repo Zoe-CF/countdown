@@ -379,7 +379,7 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
         
     .baleine img {
     position:relative;
-    width: 300px;
+    width: 400px;
     z-index :2;
 
 }
@@ -389,6 +389,7 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
                                         }
 
  @media  screen and (max-width: 1300px) {
+
     #center {
         display:flex;
         flex-direction:column;
@@ -399,7 +400,6 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
 
             .baleine img {
                 position:relative;
-                min-width: 60vw;
                 z-index :2;
                 margin-bottom:5%;
             }
@@ -407,12 +407,12 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
             .block{
             margin-top : 15%;
             margin-bottom:5%;
-                height:auto;
+            height:auto;
             }
 
             li {
                 display: inline-block;
-                font-size: 17px;
+                font-size: 20px;
                 align-items: center;
                 list-style-type: none;
                 text-transform: uppercase;
@@ -422,7 +422,7 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
               
               li span {
                 display: block;
-                font-size: 25px;
+                font-size: 28px;
                 font-family: 'arial', sans-serif;
               }
               
