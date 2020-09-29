@@ -239,7 +239,7 @@ BULLES BULLES BULLES BULLES BULLES BULLES BULLES BULLES BULLES BULLES BULLES BUL
 }
 
 .x6 {
-    left: 90%;
+    left: 85%;
     -webkit-transform: scale(0.4);
     -moz-transform: scale(0.4);
     transform: scale(0.4);
@@ -348,7 +348,6 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
         margin-top : 15%;
         margin-bottom:5%;
             height:auto;
-            width: 100%;
         }
 
 
@@ -380,8 +379,22 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
         
     .baleine img {
     position:relative;
-    width: 400px;
+    width: 300px;
     z-index :2;
+
+}
+
+#bubbles { height: 100% }
+/*#bubbles { padding: 300px 0 }*/
+
+.bubble {
+    width: 30px;
+    height: 30px;
+        border-radius: 200px;
+    -moz-border-radius: 200px;
+    -webkit-border-radius: 200px;
+    position: absolute;
+    z-index: 1;
 
 }
 
@@ -389,7 +402,7 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
 
                                         }
 
- @media  screen and (max-width: 1300px) {
+ @media  screen and (max-width: 1100px) {
 
     #center {
         display:flex;
@@ -401,6 +414,7 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
 
             .baleine img {
                 position:relative;
+                width: 300px;
                 z-index :2;
                 margin-bottom:5%;
             }
