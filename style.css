@@ -347,7 +347,8 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
     .block{
         margin-top : 15%;
         margin-bottom:5%;
-            height:auto;
+            height:120;
+            width:auto;
         }
 
 
@@ -369,25 +370,25 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
         font-size:20px;
     }
     
-    #center {
+ #center {
     display:flex;
     flex-direction:column;
     justify-content:space-between;
     align-items: center;
-        }
+     }
 
-        
+
     .baleine img {
     position:relative;
     width: 300px;
     z-index :2;
-
 }
 
 #bubbles { height: 100% }
 /*#bubbles { padding: 300px 0 }*/
 
 .bubble {
+    display:none;
     width: 30px;
     height: 30px;
         border-radius: 200px;
@@ -423,6 +424,7 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
             margin-top : 15%;
             margin-bottom:5%;
             height:auto;
+            width:auto;
             }
 
             li {
