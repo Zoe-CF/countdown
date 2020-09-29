@@ -396,12 +396,11 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
                 position:relative;
                 width: 80vw;
                 z-index :2;
-                margin-top:5%;
                 margin-bottom:5%;
             }
 
             .block{
-            margin-top : 5%;
+            margin-top : 15%;
             margin-bottom:5%;
                 height:auto;
             }
