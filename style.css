@@ -442,5 +442,8 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
                 font-family: 'arial', sans-serif;
               }
               
+              .progress {
+                  margin-top:5%;
+              }
 
         }
