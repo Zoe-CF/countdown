@@ -389,11 +389,12 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
         flex-direction:column;
         justify-content:space-between;
         align-items: center;
+        
             }
 
             .baleine img {
                 position:relative;
-                width: 300px;
+                width: 80vw;
                 z-index :2;
                 margin-top:5%;
                 margin-bottom:5%;
