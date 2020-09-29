@@ -372,10 +372,7 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
     }
     
  #center {
-    display:flex;
-    flex-direction:column;
-    justify-content:space-between;
-    align-items: center;
+    flex-flow: column wrap;
      }
 
 
@@ -407,10 +404,7 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
 
 
     #center {
-        display:flex;
-        flex-direction:column;
-        justify-content:space-between;
-        align-items: center;
+        flex-flow: column wrap;
         
             }
 
