@@ -348,11 +348,10 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
     
     .footer {
         height:60px;
-        padding : 5px;
     }
 
     .copy {
-        font-size:20px;
+        font-size:15px;
     }
     
     #center {
@@ -367,7 +366,36 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
     z-index :2;
 
                 }
-                                   }
+
+ .github span {
+                    font-family: 'BenchNine', sans-serif;
+                    font-size: 15px;
+                    margin: 15px;
+                }
+                                   
+ .block
+                {
+                    width: 100%; 
+                    height: auto;           
+                }        
+            
+
+                li {
+                    display: inline-block;
+                    font-size: 25px;
+                    align-items: center;
+                    list-style-type: none;
+                    text-transform: uppercase;
+                    font-family: 'BenchNine', sans-serif;
+                      padding:5px;
+                  }
+                  
+                  li span {
+                    display: block;
+                    font-size: 30px;
+                    font-family: 'arial', sans-serif;
+                  }
+            }
 
 
 
@@ -418,7 +446,7 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
                 display:flex;
                 flex-wrap: wrap;
               flex-basis : 100%; 
-                align-items: center;
+              
             }
               
 
