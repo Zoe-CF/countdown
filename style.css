@@ -64,6 +64,7 @@ body {
     flex-wrap: wrap;
   flex-basis : 100%; 
     align-items: center;
+    z-index: 6;
 }
 
 
