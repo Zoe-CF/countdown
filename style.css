@@ -364,16 +364,18 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
     justify-content:space-around;
 
     }
+
     .baleine img {
     position:relative;
     width: 300px;
     z-index :2;
 
-}
-}
+                }
+            }
 
 
-                                        }
+
+                                        
 
     @media screen and (min-width: 500px) and (max-width: 900px)  {
     #center {
