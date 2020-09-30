@@ -376,7 +376,7 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
                                    
  .block
 {
-width: 100%; 
+width: 80%; 
 height: auto;           
 }        
             
@@ -425,12 +425,12 @@ font-family: 'arial', sans-serif;
             .block{
                 margin-top : 5%;
                 height:auto;
-                width: 100%; 
+                width: 80%; 
             }
 
             li {
                 display: inline-block;
-                font-size: 22px;
+                font-size: 15px;
                 align-items: center;
                 list-style-type: none;
                 text-transform: uppercase;
@@ -440,7 +440,7 @@ font-family: 'arial', sans-serif;
               
               li span {
                 display: block;
-                font-size: 30px;
+                font-size: 20px;
                 font-family: 'arial', sans-serif;
               }
 
