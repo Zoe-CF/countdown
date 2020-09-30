@@ -93,7 +93,7 @@ body {
 #center {
     display:inline-flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content:space-around;
     padding-left : 10%;
     padding-right : 10%;
      flex: 1
@@ -221,7 +221,7 @@ BULLES BULLES BULLES BULLES BULLES BULLES BULLES BULLES BULLES BULLES BULLES BUL
     -o-animation: moveclouds 18s linear infinite, sideWays 2s ease-in-out infinite alternate;
 }
 .x5 {
-    left: 80%;
+    left: 75%;
     -webkit-transform: scale(0.8);
     -moz-transform: scale(0.8);
     transform: scale(0.8);
@@ -233,7 +233,7 @@ BULLES BULLES BULLES BULLES BULLES BULLES BULLES BULLES BULLES BULLES BULLES BUL
 }
 
 .x6 {
-    left: 85%;
+    left: 80%;
     -webkit-transform: scale(0.4);
     -moz-transform: scale(0.4);
     transform: scale(0.4);
@@ -359,9 +359,9 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
     #center {
     display:flex;
     flex-direction:column;
-    justify-content:space-between;
+    justify-content:space-around;
 
-
+    }
     .baleine img {
     position:relative;
     width: 300px;
@@ -377,13 +377,13 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
     #center {
         display:flex;
         flex-direction:column;
-        justify-content:space-between;
+        justify-content:space-around;
         align-items: center;
             }
 
             .baleine img {
                 position:relative;
-                width: 300px;
+                width: 100%;
                 z-index :2;
                 margin-top:5%;
                 margin-bottom:5%;
@@ -410,5 +410,37 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
                 font-family: 'arial', sans-serif;
               }
               
+
+        }
+
+        @media  screen and (max-width: 1110px) {
+
+            #center {
+                display:flex;
+                justify-content:space-around;
+                align-items: center;
+                padding:10px;
+                    }
+
+            .block{
+                margin-top : 5%;
+                height:auto;
+            }
+
+            li {
+                display: inline-block;
+                font-size: 22px;
+                align-items: center;
+                list-style-type: none;
+                text-transform: uppercase;
+                font-family: 'BenchNine', sans-serif;
+                  padding:5px;
+              }
+              
+              li span {
+                display: block;
+                font-size: 30px;
+                font-family: 'arial', sans-serif;
+              }
 
         }
