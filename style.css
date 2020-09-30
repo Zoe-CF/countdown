@@ -375,7 +375,7 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
 
                                         }
 
-    @media screen and (min-width: 500px) and (max-width: 800px)  {
+    @media screen and (min-width: 500px) and (max-width: 900px)  {
     #center {
         display:flex;
         flex-direction:column;
@@ -418,7 +418,7 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
 
         }
 
-        @media screen and (min-width: 801 px) and (max-width: 1200px) {
+        @media screen and (min-width: 901 px) and (max-width: 1200px) {
 
             #center {
                 display:flex;
