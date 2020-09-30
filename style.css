@@ -362,8 +362,7 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
     display:flex;
     flex-direction:column;
     justify-content:space-around;
-
-    }
+            }
 
     .baleine img {
     position:relative;
@@ -371,7 +370,7 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
     z-index :2;
 
                 }
-            }
+                                   }
 
 
 
