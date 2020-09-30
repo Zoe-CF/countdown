@@ -353,6 +353,11 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
 
     .copy {
         font-size:15px;
+        margin-left:3%;
+    }
+
+    .github{
+        margin-right:3%;
     }
     
     #center {
