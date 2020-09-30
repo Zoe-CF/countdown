@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@700&display=swap');
 
+/*
 *{
     box-sizing: border-box;
 }
-
+*/
 img{
     height:auto;
 }
@@ -368,40 +369,41 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
                 }
 
  .github span {
-                    font-family: 'BenchNine', sans-serif;
-                    font-size: 15px;
-                    margin: 15px;
-                }
+ font-family: 'BenchNine', sans-serif;
+ font-size: 15px;
+ margin: 15px;
+ }
                                    
  .block
-                {
-                    width: 100%; 
-                    height: auto;           
-                }        
+{
+width: 100%; 
+height: auto;           
+}        
             
 
-                li {
-                    display: inline-block;
-                    font-size: 25px;
-                    align-items: center;
-                    list-style-type: none;
-                    text-transform: uppercase;
-                    font-family: 'BenchNine', sans-serif;
-                      padding:5px;
-                  }
+li {
+display: inline-block;
+font-size: 25px;
+align-items: center;
+list-style-type: none;
+text-transform: uppercase;
+ font-family: 'BenchNine', sans-serif;
+ padding:5px;
+ }
                   
-                  li span {
-                    display: block;
-                    font-size: 30px;
-                    font-family: 'arial', sans-serif;
-                  }
-            }
+li span {
+display: block;
+font-size: 30px;
+font-family: 'arial', sans-serif;
+ }
+}
 
 
 
                                         
 
-    @media screen and (min-width: 500px) and (max-width: 900px)  {
+    @media screen and (min-width: 300px) and (max-width: 900px)  {
+
     #center {
         display:flex;
         flex-direction:column;
@@ -423,6 +425,7 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
             .block{
                 margin-top : 5%;
                 height:auto;
+                width: 100%; 
             }
 
             li {
