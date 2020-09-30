@@ -14,12 +14,6 @@ html {
    height: 100%
 }
 
-.page {
-    height:auto;
-    display:flex;
-    flex-direction:column;
-}
-
 
 body {
     margin:0;
@@ -239,7 +233,7 @@ BULLES BULLES BULLES BULLES BULLES BULLES BULLES BULLES BULLES BULLES BULLES BUL
 }
 
 .x6 {
-    left: 90%;
+    left: 85%;
     -webkit-transform: scale(0.4);
     -moz-transform: scale(0.4);
     transform: scale(0.4);
@@ -367,9 +361,7 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE
     flex-direction:column;
     justify-content:space-between;
 
-        }
 
-        
     .baleine img {
     position:relative;
     width: 300px;
