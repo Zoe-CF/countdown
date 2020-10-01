@@ -393,14 +393,12 @@ font-size: 25px;
 align-items: center;
 list-style-type: none;
 text-transform: uppercase;
-font-family: 'Open Sans Condensed', sans-serif;
  padding:5px;
  }
                   
 li span {
 display: block;
 font-size: 30px;
-font-family: 'Open Sans Condensed', sans-serif;
  }
 }
 
@@ -444,14 +442,12 @@ font-family: 'Open Sans Condensed', sans-serif;
                 align-items: center;
                 list-style-type: none;
                 text-transform: uppercase;
-                font-family: 'Open Sans Condensed', sans-serif;
                   padding:5px;
               }
               
               li span {
                 display: block;
                 font-size: 20px;
-                font-family: 'Open Sans Condensed', sans-serif;
               }
 
               .footer {
@@ -485,14 +481,12 @@ font-family: 'Open Sans Condensed', sans-serif;
                 align-items: center;
                 list-style-type: none;
                 text-transform: uppercase;
-                font-family: 'Open Sans Condensed', sans-serif;
                   padding:5px;
               }
               
               li span {
                 display: block;
                 font-size: 30px;
-                font-family: 'Open Sans Condensed', sans-serif;
               }
 
         }
