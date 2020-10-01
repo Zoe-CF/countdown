@@ -393,14 +393,14 @@ font-size: 25px;
 align-items: center;
 list-style-type: none;
 text-transform: uppercase;
- font-family: 'BenchNine', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
  padding:5px;
  }
                   
 li span {
 display: block;
 font-size: 30px;
-font-family: 'arial', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
  }
 }
 
